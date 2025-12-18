@@ -1,0 +1,108 @@
+@font-face {
+  font-family: youngSerif;
+  src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+@font-face {
+  font-family: outfitSemiBold;
+  src: url(assets/fonts/outfit/static/Outfit-SemiBold.ttf);
+}
+@font-face {
+  font-family: outfitReguler;
+  src: url(assets/fonts/outfit/static/Outfit-Regular.ttf);
+}
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Stone100: hsl(30, 54%, 90%);
+  --Stone150: hsl(30, 18%, 87%);
+  --Stone600: hsl(30, 10%, 34%);
+  --Stone900: hsl(24, 5%, 18%);
+  --Brown800: hsl(14, 45%, 36%);
+  --Rose800: hsl(332, 51%, 32%);
+  --Rose50: hsl(330, 100%, 98%);
+}
+img {
+  box-sizing: border-box;
+  margin: 3%;
+  width: 94%;
+  height: 100%;
+  border-radius: 10px;
+}
+h1 {
+  font-family: youngSerif;
+  padding: 0 4%;
+}
+h2 {
+  font-family: youngSerif;
+  color: var(--Brown800);
+}
+h3 {
+  margin: 3%;
+  color: var(--Rose800);
+  font-family: outfitReguler;
+}
+p {
+  font-family: outfitReguler;
+  padding: 0 4%;
+  color: var(--Stone600);
+  font-size: 17px;
+}
+.time {
+  width: auto;
+  margin: 0 4%;
+  padding: 15px;
+  background-color: var(--Rose50);
+  border-radius: 25px;
+}
+.time ul li {
+  color: var(--Stone600);
+  margin-left: 4px;
+  line-height: 25px;
+  font-size: 17px;
+  font-family: outfitReguler;
+}
+.time ul li b {
+  color: var(--Stone600);
+}
+.ingredients {
+  padding: 0 4%;
+  font-size: 17px;
+  font-family: outfitReguler;
+  line-height: 25px;
+  color: var(--Stone600);
+}
+.Instructions {
+  padding: 0 4%;
+}
+.Instructions ol li {
+  padding: 0 4%;
+  color: var(--Stone600);
+  font-size: 17px;
+  line-height: 25px;
+  font-family: outfitReguler;
+}
+.nutrition {
+  margin: 4%;
+}
+.nutrition p {
+  margin-left: -4%;
+}
+table {
+  box-sizing: border-box;
+  width: 92%;
+  height: 200px;
+  font-family: outfitReguler;
+  font-size: 17px;
+  color: var(--Stone600);
+  border-collapse: collapse;
+}
+tr {
+  border-bottom: 1px solid var(--Stone600);
+}
+.color {
+  color: var(--Brown800);
+  font-weight: bold;
+}
+hr {
+  margin: 10px;
+  color: var(--Stone600);
+}
